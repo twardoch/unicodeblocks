@@ -6,6 +6,7 @@ from urllib import request
 import os
 import os.path
 
+#uri = 'https://web.archive.org/web/20210608170237if_/http://unicode.org/Public/UNIDATA/Blocks.txt'
 uri = 'http://www.unicode.org/Public/UNIDATA/Blocks.txt'
 root = os.path.dirname(os.path.abspath(__file__))
 target_path = os.path.join(root, 'unicodeblocks', '_blocklist.py')
